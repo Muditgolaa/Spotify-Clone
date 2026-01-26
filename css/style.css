@@ -5,6 +5,27 @@
     --a: 0;
 }
 
+/* Scrollbar width */
+.songList::-webkit-scrollbar {
+    width: 8px;
+}
+
+/* Scrollbar background */
+.songList::-webkit-scrollbar-track {
+    background: black;
+}
+
+/* Scrollbar thumb (the moving part) */
+.songList::-webkit-scrollbar-thumb {
+    background: rgb(59, 59, 59);
+    border-radius: 10px;
+}
+
+/* Hover effect */
+.songList::-webkit-scrollbar-thumb:hover {
+    background: #aaa;
+}
+
 * {
     margin: 0;
     padding: 0;
@@ -204,6 +225,43 @@ body {
     padding: 0 20px;
 }
 
-.mudit{
+.mudit {
     background-color: bisque;
+}
+
+.songList {
+    max-height: 500px;
+    overflow-y: scroll;
+    margin-bottom: 50px;
+    
+}
+
+.songList ul {
+    padding: 0 22px;
+}
+
+.songList ul li {
+    list-style-type: decimal;
+    font-size: small;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    padding: 10px;
+    border: 1px solid white;
+    margin: 10px 0;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.playnow {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    white-space: nowrap;
+    font-size: 12px;
+}
+
+.info {
+    width: 344px;
+    /* flex: 1;                    ⭐ takes remaining space */
 }
