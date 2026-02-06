@@ -1,0 +1,1 @@
+- 📱 Fully responsive layout for mobile and desktop screens
