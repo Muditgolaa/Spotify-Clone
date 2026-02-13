@@ -1,4 +1,8 @@
 {
     "title": "Copyright Songs",
-    "description": "Cover Songs for you"
+    "description": "Cover Songs for you",
+    "songs": [
+        "Mortals ft. Laura Brehm.mp",
+        "Random.mp3"
+    ]
 }

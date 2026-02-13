@@ -1,4 +1,9 @@
 {
     "title": "Angry Mood",
-    "description": "Calm your Anger"
+    "description": "Calm your Anger",
+    "songs": [
+        "cybernetic-rage.mp3",
+        "digital-haunting.mp3",
+        "fighter.mp3"
+    ]
 }

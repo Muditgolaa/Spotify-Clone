@@ -1,4 +1,8 @@
 {
     "title": "Go Funky",
-    "description": "Lets go Funky"
+    "description": "Lets go Funky",
+    "songs": [
+        "the_mountain-funky-138616.mp3",
+        "watermello-funky-funk.mp3"
+    ]
 }
