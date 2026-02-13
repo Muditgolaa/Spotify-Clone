@@ -26,6 +26,26 @@
     background: #aaa;
 }
 
+/* Scrollbar width */
+.cardContainer::-webkit-scrollbar {
+    width: 8px;
+}
+
+/* Scrollbar background */
+.cardContainer::-webkit-scrollbar-track {
+    background: black;
+}
+
+/* Scrollbar thumb (the moving part) */
+.cardContainer::-webkit-scrollbar-thumb {
+    background: rgb(59, 59, 59);
+    border-radius: 10px;
+}
+
+/* Hover effect */
+.cardContainer::-webkit-scrollbar-thumb:hover {
+    background: #aaa;
+}
 * {
     margin: 0;
     padding: 0;
@@ -328,6 +348,11 @@ body {
     justify-content: center;
     align-items: center;
     gap: 20px;
+    cursor: pointer;
+}
+
+.range input{
+    cursor: pointer;
 }
 
 @media (max-width: 1400px) {
@@ -393,5 +418,8 @@ body {
 @media (max-width: 450px) {
     .card {
         width: 85vw;
+    }
+    .cardContainer{
+        max-height: 60vh;
     }
 }
